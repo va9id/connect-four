@@ -1,4 +1,4 @@
-*** Connect 4 Game ***
+Connect Four Game
 
 Author: Vahid
 ------------------
@@ -10,4 +10,4 @@ To run the project executable:
 3. Navigate to the directory containing the extracted zip file using the command line
 4. Execute the JAR file on the command line (e.g.: java -jar ConnectFour.java)
 
-Note: These steps assume Java is already installed on the system
+Note: These steps assume Java is already installed on the syste
