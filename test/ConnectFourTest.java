@@ -1,5 +1,9 @@
-import static org.junit.Assert.*;
+import org.junit.Assert;
 
+/**
+ * JUnit Test Cases for Connect Four
+ * @author Vahid
+ */
 public class ConnectFourTest {
 
     ConnectFourModel model;
@@ -26,7 +30,7 @@ public class ConnectFourTest {
         model.play(2, 5);
         model.play(2, 4);
         model.play(1, 6);
-        assertEquals(ConnectFourModel.Status.RED_WON, model.getStatus());
+        Assert.assertEquals(ConnectFourModel.Status.RED_WON, model.getStatus());
     }
 
     /**
@@ -42,7 +46,7 @@ public class ConnectFourTest {
         model.play(0, 0);
         model.play(1, 5);
         model.play(1, 0);
-        assertEquals(ConnectFourModel.Status.YELLOW_WON, model.getStatus());
+        Assert.assertEquals(ConnectFourModel.Status.YELLOW_WON, model.getStatus());
     }
 
     /**
@@ -61,7 +65,7 @@ public class ConnectFourTest {
         model.play(3, 4);
         model.play(0, 0);
         model.play(0, 0);
-        assertEquals(ConnectFourModel.Status.RED_WON, model.getStatus());
+        Assert.assertEquals(ConnectFourModel.Status.RED_WON, model.getStatus());
     }
 
     /**
@@ -80,6 +84,6 @@ public class ConnectFourTest {
         model.play(2,6);
         model.play(2,0);
         model.play(2,6);
-        assertEquals(ConnectFourModel.Status.RED_WON, model.getStatus());
+        Assert.assertEquals(ConnectFourModel.Status.RED_WON, model.getStatus());
     }
 }
