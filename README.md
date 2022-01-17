@@ -3,7 +3,7 @@
 
 Author: Vahid
 ------------------
-The popular board game Connect 4 but in Java.
+The popular board game Connect 4 but in Java! The game was implement using the Model View Controller (MVC) and Event Model design patterns. 
 ------------------
 To run the project executable:
 1. Download the project zip file.
