@@ -16,6 +16,8 @@ public class ConnectFourModel {
     private boolean turn;
     private Status status;
 
+    private int test;
+
     private ArrayList<ConnectFourView> views;
 
     /**
