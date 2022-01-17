@@ -16,7 +16,6 @@ public class ConnectFourModel {
     private boolean turn;
     private Status status;
 
-    private int test;
 
     private ArrayList<ConnectFourView> views;
 
@@ -52,7 +51,7 @@ public class ConnectFourModel {
 
     /**
      * Add a view to the model
-     * @param view
+     * @param view the view associated with the model
      */
     public void addConnectFourView(ConnectFourView view){
         this.views.add(view);
