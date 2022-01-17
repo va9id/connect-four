@@ -42,6 +42,12 @@ public class ConnectFourModel {
     }
 
     /**
+     * Get the current status of the game
+     * @return Status of the game
+     */
+    public Status getStatus(){ return status; }
+
+    /**
      * Change the turn of the players
      */
     private void changeTurn() {

@@ -16,7 +16,7 @@ public class ConnectFourView extends JFrame implements ConnectFourInterface{
     public ConnectFourView(){
         super("Connect Four");
 
-        this.setLayout(new GridLayout(7, 7));
+        this.setLayout(new GridLayout(7, 7, 5, 5));
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setSize(700, 600);
         this.setLocationRelativeTo(null);
