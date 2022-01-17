@@ -9,7 +9,8 @@ To run the project executable:
 2. Extract the zip file.
 3. Navigate to the directory containing the jar file using the command line (out/artfacts/ConnectFour_jar).
 4. Execute the JAR file on the command line 
-```java -jar ConnectFour.java
+```
+java -jar ConnectFour.java
 ```
 
 Note: These steps assume Java is already installed on the system
